@@ -1,0 +1,5 @@
+alias cdo='cd -'
+alias cd..='cd ..'
+alias ls='ls -AFG'
+alias ll='ls -AFClG'
+alias sl='sublime'
