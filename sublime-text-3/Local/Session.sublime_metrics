@@ -1,0 +1,33 @@
+{
+	"licensed": false,
+	"packages":
+	[
+		"Package Control",
+		"Theme - Nil",
+		"WordHighlight",
+		"Theme - Nil",
+		"WordHighlight",
+		"Package Control",
+		"Theme - Nil",
+		"WordHighlight",
+		"Package Control",
+		"Theme - Nil",
+		"WordHighlight",
+		"Package Control",
+		"Theme - Nil",
+		"WordHighlight",
+		"Package Control",
+		"Theme - Nil",
+		"WordHighlight"
+	],
+	"startup_sec": 0.258945,
+	"syntax":
+	{
+		"HTML (Rails)": 4,
+		"JSON": 20,
+		"Plain text": 1,
+		"Ruby": 14,
+		"YAML": 4
+	},
+	"time": 1376056914
+}

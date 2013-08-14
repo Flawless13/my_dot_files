@@ -1,0 +1,117 @@
+[
+  {
+    "keys": ["alt+shift+left"],
+    "command": "run_multiple",
+    "args":
+    {
+      "commands": [
+        {
+          "command": "set_layout",
+          "args":
+          {
+            "cols": [0.0, 0.5, 0.75, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]]
+          },
+          "context": "window"
+        },
+        {
+          "command": "focus_group",
+          "args":
+          {
+            "group": 0
+          },
+          "context": "window"
+        }
+      ]
+    }
+  },
+  {
+    "keys": ["alt+shift+up"],
+    "command": "run_multiple",
+    "args":
+    {
+      "commands": [
+        {
+          "command": "set_layout",
+          "args":
+          {
+            "cols": [0.0, 0.25, 0.75, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]]
+          },
+          "context": "window"
+        },
+        {
+          "command": "focus_group",
+          "args":
+          {
+            "group": 1
+          },
+          "context": "window"
+        }
+      ]
+    }
+  },
+  {
+    "keys": ["alt+shift+right"],
+    "command": "run_multiple",
+    "args":
+    {
+      "commands": [
+        {
+          "command": "set_layout",
+          "args":
+          {
+            "cols": [0.0, 0.25, 0.5, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]]
+          },
+          "context": "window"
+        },
+        {
+          "command": "focus_group",
+          "args":
+          {
+            "group": 2
+          },
+          "context": "window"
+        }
+      ]
+    }
+  },
+
+  {
+    "keys": ["alt+shift+down"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.33, 0.66, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]]
+    }
+  },
+  {
+    "keys": ["alt+shift+6"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 0.66, 1.0],
+      "cells": [[0, 0, 1, 2], [1, 0, 2, 1], [1, 1, 2, 2]]
+    }
+  },
+  {
+    "keys": ["alt+shift+7"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 0.33, 1.0],
+      "cells": [[0, 0, 1, 2], [1, 0, 2, 1], [1, 1, 2, 2]]
+    }
+  },
+  { "keys": ["f10"], "command": "goto_definition" },
+  { "keys": ["f9"], "command": "jump_back" },
+  { "keys": ["ctrl+s"], "command": "save" }
+]

@@ -1,0 +1,8 @@
+{
+  "sublimelinter_delay": 0,
+  "sublimelinter_popup_errors_on_save": "true",
+  "sublimelinter_gutter_marks_theme": "dark",
+  "sublimelinter_executable_map": {
+    "ruby": "rvm-auto-ruby"
+  }
+}
