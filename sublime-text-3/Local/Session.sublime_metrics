@@ -3,31 +3,16 @@
 	"packages":
 	[
 		"Package Control",
-		"Theme - Nil",
-		"WordHighlight",
-		"Theme - Nil",
-		"WordHighlight",
-		"Package Control",
-		"Theme - Nil",
-		"WordHighlight",
-		"Package Control",
-		"Theme - Nil",
-		"WordHighlight",
-		"Package Control",
-		"Theme - Nil",
-		"WordHighlight",
-		"Package Control",
+		"SublimeGit",
 		"Theme - Nil",
 		"WordHighlight"
 	],
-	"startup_sec": 0.258945,
+	"startup_sec": 0.261464,
 	"syntax":
 	{
-		"HTML (Rails)": 4,
-		"JSON": 20,
-		"Plain text": 1,
-		"Ruby": 14,
-		"YAML": 4
+		"JSON": 1,
+		"Python": 16,
+		"Ruby": 1
 	},
-	"time": 1376056914
+	"time": 1377007146
 }

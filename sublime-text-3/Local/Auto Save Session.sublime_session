@@ -1,12 +1,14 @@
 {
 	"folder_history":
 	[
+		"/home/spencer/.config/sublime-text-3/Packages/SublimePeek",
+		"/home/spencer/deploy_scripts",
 		"/home/spencer/rails",
 		"/home/spencer/.rvm/gems/ruby-1.9.3-p429@rails32/gems",
 		"/home/spencer/Documents"
 	],
 	"last_version": 3047,
-	"last_window_id": 4,
+	"last_window_id": 10,
 	"log_indexing": false,
 	"settings":
 	{
@@ -18,16 +20,24 @@
 				"selected_items":
 				[
 					[
+						"data",
+						"database"
+					],
+					[
+						"sta",
+						"starting_instance_methods"
+					],
+					[
+						"atta",
+						"attach_file"
+					],
+					[
 						"att",
 						"attach_file"
 					],
 					[
 						"clien",
 						"client_grades"
-					],
-					[
-						"sta",
-						"staging_backup"
 					],
 					[
 						"stats",
@@ -294,9 +304,29 @@
 			"build_system": "Packages/User/cores.sublime-build",
 			"command_palette":
 			{
-				"height": 84.0,
+				"height": 375.0,
 				"selected_items":
 				[
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"diff",
+						"Git: Diff Current File"
+					],
+					[
+						"installe",
+						"Package Control: Install Package"
+					],
 					[
 						"upg",
 						"Package Control: Upgrade Package"
@@ -304,10 +334,6 @@
 					[
 						"package",
 						"Package Control: Upgrade Package"
-					],
-					[
-						"remove",
-						"Package Control: Remove Package"
 					],
 					[
 						"package ",
@@ -324,10 +350,6 @@
 					[
 						"pa",
 						"Package Control: Remove Package"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
 					],
 					[
 						"package install",
@@ -410,13 +432,15 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 423.0
+				"width": 415.0
 			},
 			"console":
 			{
 				"height": 615.0,
 				"history":
 				[
+					"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+					"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'https://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
 					"view.settings().get(\"sublimelinter_executable_map\")",
 					"view.settings().get(\"sublimelinter_gutter_marks_theme\")",
 					"view.settings().get(\"sublimelinter_executable_map\") = {'ruby': '/home/spencer/.rvm/bin/rvm-auto-ruby'}",
@@ -446,33 +470,119 @@
 			},
 			"file_history":
 			[
-				"/home/spencer/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/home/spencer/analytics-tng/config/database.yml",
+				"/home/spencer/.config/sublime-text-3/Packages/Origami/Default (Linux).sublime-keymap",
+				"/home/spencer/analytics-tng/vendor/gem/analytics_models-0.0.0/analytics_models.gemspec",
+				"/home/spencer/analytics-tng/vendor/gem/analytics_models-0.0.0/build_analytics_models.sh",
+				"/home/spencer/analytics-tng/vendor/gem/analytics_models-0.0.0/lib/analytics_models.rb",
+				"/home/spencer/analytics-tng/app/models/shared_plugin.rb",
+				"/home/spencer/analytics-tng/app/models/es/elasticsearch.rb",
+				"/home/spencer/analytics-tng/app/models/community/product_scrubber.rb",
+				"/home/spencer/analytics-tng/app/models/http_log_entry.rb",
+				"/home/spencer/analytics-tng/app/models/client_geo.rb",
+				"/home/spencer/analytics-tng/vendor/gem/analytics_models.gemspec",
+				"/home/spencer/analytics-tng/analytics_models.gemspec",
+				"/home/spencer/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+				"/home/spencer/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/spencer/.config/sublime-text-2/Packages/Vintage/Default.sublime-keymap",
+				"/home/spencer/analytics-tng/app/models/community_stat.rb",
+				"/home/spencer/analytics-tng/Rakefile",
+				"/home/spencer/analytics-tng/lib/tasks/misc.rake",
+				"/home/spencer/analytics-tng/lib/tasks/warranty.rake",
+				"/home/spencer/.config/sublime-text-3/Cache/Vintageous/VintageousEx Cmdline.tmLanguage.cache",
+				"/home/spencer/.config/sublime-text-3/Packages/goto_magic.sublime-macro",
+				"/home/spencer/analytics-tng/log/development.log",
+				"/home/spencer/analytics-tng/lib/tasks/warehouse.rake",
+				"/home/spencer/analytics-tng/app/models/exact_target.rb",
+				"/home/spencer/analytics-tng/lib/tasks/exact_target.rake",
+				"/home/spencer/analytics-tng/sftp-config.json",
+				"/home/spencer/.config/sublime-text-3/Packages/SFTP/SFTP.sublime-settings",
+				"/home/spencer/.config/sublime-text-3/Packages/FileDiffs/FileDiffs.sublime-settings",
+				"/home/spencer/analytics-tng/lib/tasks/msft_software_all_misc.rake",
+				"/home/spencer/analytics-tng/app/models/email_stat.rb",
 				"/home/spencer/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/spencer/analytics-tng/lib/tasks/msft_software_all.rake",
+				"/home/spencer/analytics-tng/lib/tasks/duns.rake.orig",
+				"/home/spencer/analytics-tng/lib/tasks/idm_for_dell.rake",
+				"/home/spencer/analytics-tng/lib/tasks/edialog_tool_tests.rake",
+				"/home/spencer/analytics-tng/lib/tasks/msft_software_all_tests.rake",
+				"/home/spencer/analytics-tng/lib/tasks/duns.rake",
+				"/home/spencer/analytics-tng/lib/tasks/dell_duns.rake",
+				"/home/spencer/analytics-tng/lib/tasks/old_projects/twp.rake",
+				"/home/spencer/analytics-tng/lib/tasks/old_projects/trendmicro.rake",
+				"/home/spencer/analytics-tng/lib/tasks/old_projects/idm2.rake",
+				"/home/spencer/analytics-tng/lib/tasks/old_projects/idm.rake",
+				"/home/spencer/analytics-tng/lib/tasks/old_projects/hp.rake",
+				"/home/spencer/analytics-tng/lib/tasks/product_uuid_tests.rake",
+				"/home/spencer/analytics-tng/lib/tasks/old_projects/dell_emails.rake",
+				"/home/spencer/analytics-tng/lib/tasks/old_projects/dell.rake",
+				"/home/spencer/analytics-tng/lib/tasks/reports.rake",
+				"/home/spencer/analytics-tng/lib/tasks/reconstruct_daily.rake",
+				"/home/spencer/analytics-tng/lib/tasks/rad_scoring.rake",
+				"/home/spencer/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+				"/home/spencer/analytics-tng/app/models/users.rb",
+				"/home/spencer/analytics-tng/app/views/mailer/weekly_warranty_api_test_results.html.erb",
+				"/home/spencer/analytics-tng/app/views/mailer/weekly_vendor_page_usage.html.erb",
+				"/home/spencer/analytics-tng/app/views/mailer/warranty_warehouse_report_finished.html.erb",
+				"/home/spencer/analytics-tng/app/views/mailer/warranty_warehouse_report_exit_with_error.html.erb",
+				"/home/spencer/analytics-tng/app/views/mailer/warranty_report_started.html.erb",
+				"/home/spencer/analytics-tng/app/views/mailer/warranty_report_finished.html.erb",
+				"/home/spencer/analytics-tng/app/views/mailer/support_stats.html.erb",
+				"/home/spencer/analytics-tng/app/views/mailer/monthly_update_process.html.erb",
+				"/home/spencer/analytics-tng/app/views/mailer/monthly_test_results.html.erb",
+				"/home/spencer/analytics-tng/app/views/mailer/mail_with_attachment.html.erb",
+				"/home/spencer/analytics-tng/app/views/mailer/generic_mail.html.erb",
+				"/home/spencer/analytics-tng/app/views/mailer/community_first.html.erb",
+				"/home/spencer/analytics-tng/app/views/mailer/exception_caught.html.erb",
+				"/home/spencer/analytics-tng/lib/tasks/monthly_update.rake",
+				"/home/spencer/analytics-tng/app/models/one_stat.rb",
+				"/home/spencer/analytics-tng/script/daily.prod.sh",
+				"/home/spencer/analytics-tng/script/daily.test.sh",
+				"/home/spencer/analytics-tng/app/models/bv/bazaar_voice.rb",
+				"/home/spencer/analytics-tng/script/weekly.prod.sh",
+				"/home/spencer/analytics-tng/script/warranty_reports.prod.sh",
+				"/home/spencer/analytics-tng/script/referrers.prod.sh",
+				"/home/spencer/analytics-tng/script/rebuild_and_push_marketview_ad_info.sh",
+				"/home/spencer/analytics-tng/script/openx.test.sh",
+				"/home/spencer/analytics-tng/script/openx.prod.sh",
+				"/home/spencer/analytics-tng/script/monthly.test.sh",
+				"/home/spencer/analytics-tng/script/monthly.prod.sh",
+				"/home/spencer/analytics-tng/script/getpgbackup.sh",
+				"/home/spencer/analytics-tng/script/devdb.sh",
+				"/home/spencer/analytics-tng/script/daily_data_email_clone.sh",
+				"/home/spencer/analytics-tng/script/daily_clone.sh",
+				"/home/spencer/analytics-tng/script/daily.restore.test.sh",
+				"/home/spencer/analytics-tng/script/daily.restore.prod.sh",
+				"/home/spencer/tmp1",
+				"/home/spencer/analytics-tng/lib/tasks/email_stats.rake",
+				"/home/spencer/analytics-tng/app/models/postgres_stats.rb",
+				"/home/spencer/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/spencer/analytics-tng/app/views/mailer/email_health_results.html.erb",
+				"/home/spencer/analytics-tng/config/initializers/email_interceptor.rb",
+				"/home/spencer/analytics-tng/app/models/funnel_mailer.rb",
+				"/home/spencer/analytics-tng/app/models/daily_trend.rb",
+				"/home/spencer/.config/sublime-text-3/Packages/User/Word Highlight.sublime-settings",
+				"/home/spencer/.config/sublime-text-3/Packages/User/run_multiple.py",
+				"/home/spencer/analytics-tng/app/models/google_analytics.rb",
+				"/home/spencer/analytics-tng/lib/tasks/analytics.rake",
+				"/home/spencer/analytics-tng/lib/tasks/spencer.rake",
+				"/home/spencer/analytics-tng/app/models/post.rb",
+				"/home/spencer/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+				"/home/spencer/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
 				"/home/spencer/.config/sublime-text-3/Packages/User/Ruby.sublime-settings",
 				"/home/spencer/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
-				"/home/spencer/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
-				"/home/spencer/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-				"/home/spencer/.config/sublime-text-3/Packages/User/Word Highlight.sublime-settings",
 				"/home/spencer/.config/sublime-text-3/Packages/WordHighlight/Word Highlight.sublime-settings",
 				"/home/spencer/.config/sublime-text-3/Packages/SublimeLinter/Default (Linux).sublime-keymap",
 				"/home/spencer/.config/sublime-text-3/Packages/SublimeLinter/README.md",
 				"/home/spencer/.config/sublime-text-3/Packages/SublimeLinter/changelog.txt",
 				"/home/spencer/analytics-tng/app/models/spice_warehouse.rb",
-				"/home/spencer/analytics-tng/app/models/users.rb",
-				"/home/spencer/analytics-tng/app/views/mailer/exception_caught.html.erb",
 				"/home/spencer/analytics-tng/lib/tasks/vendor.rake",
 				"/home/spencer/analytics-tng/lib/tasks/workloads.rake",
 				"/home/spencer/analytics-tng/app/models/wl/workload.rb",
 				"/home/spencer/analytics-tng/app/views/mailer/daily_usage.text.erb",
 				"/home/spencer/analytics-tng/app/models/configuration.rb",
-				"/home/spencer/analytics-tng/app/models/bv/bazaar_voice.rb",
 				"/home/spencer/analytics-tng/vendor/plugins/db_helper/lib/db_helper/postgresql.rb",
-				"/home/spencer/analytics-tng/app/views/mailer/monthly_update_process.html.erb",
 				"/home/spencer/analytics-tng/lib/exceptions.rb",
-				"/home/spencer/analytics-tng/lib/tasks/analytics.rake",
-				"/home/spencer/analytics-tng/app/models/one_stat.rb",
-				"/home/spencer/analytics-tng/lib/tasks/monthly_update.rake",
-				"/home/spencer/analytics-tng/lib/tasks/warehouse.rake",
 				"/home/spencer/analytics-tng/lib/tasks/developer.rake",
 				"/home/spencer/analytics-tng/lib/tasks/functions.rake",
 				"/home/spencer/analytics-tng/Gemfile",
@@ -480,100 +590,14 @@
 				"/home/spencer/analytics-tng/vendor/gems/db_helper/lib/db_helper.rb",
 				"/home/spencer/analytics-tng/app/views/mailer/daily_usage.rhtml",
 				"/home/spencer/analytics-tng/logparser/r_controller.rb",
-				"/home/spencer/analytics-tng/log/development.log",
-				"/home/spencer/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
-				"/home/spencer/analytics-tng/config/initializers/email_interceptor.rb",
 				"/home/spencer/analytics-tng/config/initializers/sandbox_email_interceptor.rb",
-				"/home/spencer/analytics-tng/script/daily.test.sh",
-				"/home/spencer/analytics-tng/config/database.yml",
-				"/home/spencer/analytics-tng/app/models/funnel_mailer.rb",
 				"/home/spencer/analytics-tng/vendor/plugins/rails_upgrade/test/application_checker_test.rb",
 				"/home/spencer/analytics-tng/config/environments/development.rb",
 				"/home/spencer/analytics-tng/config/environments/test.rb",
 				"/home/spencer/analytics-tng/app/models/weekly/warehouse_append_test.rb",
 				"/home/spencer/analytics-tng/app/models/weekly/warehouse_append.rb",
 				"/home/spencer/analytics-tng/app/models/monthly/warehouse_append.rb",
-				"/home/spencer/analytics-tng/app/models/historical/software.rb",
-				"/home/spencer/analytics-tng/app/models/historical/processor.rb",
-				"/home/spencer/analytics-tng/app/models/historical/operatingsystem.rb",
-				"/home/spencer/analytics-tng/app/models/historical/manufacturer.rb",
-				"/home/spencer/analytics-tng/app/models/historical/age.rb",
-				"/home/spencer/analytics-tng/app/models/postgres_stats.rb",
-				"/home/spencer/analytics-tng/app/models/ad_stat.rb",
-				"/home/spencer/analytics-tng/app/models/ad_click.rb",
-				"/home/spencer/analytics-tng/app/models/vendor/metric.rb",
-				"/home/spencer/analytics-tng/app/models/stats/vpro.rb",
-				"/home/spencer/analytics-tng/app/models/stats/virtual_mapping.rb",
-				"/home/spencer/analytics-tng/app/models/stats/virtual.rb",
-				"/home/spencer/analytics-tng/app/models/stats/top_n_manufacturer.rb",
-				"/home/spencer/analytics-tng/app/models/stats/remote_collector.rb",
-				"/home/spencer/analytics-tng/app/models/stats/processor.rb",
-				"/home/spencer/analytics-tng/app/models/stats/name.rb",
-				"/home/spencer/analytics-tng/app/models/stats/misc.rb",
-				"/home/spencer/analytics-tng/app/models/stats/feature.rb",
-				"/home/spencer/analytics-tng/app/models/stats/collector.rb",
-				"/home/spencer/analytics-tng/app/models/stats/agreement.rb",
-				"/home/spencer/analytics-tng/app/models/stats/age.rb",
-				"/home/spencer/analytics-tng/app/models/messaging/message.rb",
-				"/home/spencer/analytics-tng/app/models/historical/topic_read.rb",
-				"/home/spencer/analytics-tng/app/models/historical/misc.rb",
-				"/home/spencer/analytics-tng/app/models/historical/domain_record.rb",
-				"/home/spencer/analytics-tng/app/models/historical/community_stat.rb",
-				"/home/spencer/analytics-tng/app/models/historical/client_grade.rb",
-				"/home/spencer/analytics-tng/app/models/data/antivirus.rb",
-				"/home/spencer/analytics-tng/app/models/bv/tripplite.rb",
-				"/home/spencer/analytics-tng/app/models/bv/newegg.rb",
-				"/home/spencer/analytics-tng/app/models/bv/dell.rb",
-				"/home/spencer/analytics-tng/app/models/bv/cdw.rb",
-				"/home/spencer/analytics-tng/app/models/archive/stats/virtual_history.rb",
-				"/home/spencer/analytics-tng/app/models/archive/stats/processor_history.rb",
-				"/home/spencer/analytics-tng/app/models/archive/stats/misc_history.rb",
-				"/home/spencer/analytics-tng/app/models/archive/stats/age_history.rb",
-				"/home/spencer/analytics-tng/app/models/archive/software_history.rb",
-				"/home/spencer/analytics-tng/app/models/archive/operatingsystem_history.rb",
-				"/home/spencer/analytics-tng/app/models/archive/manufacturer_history.rb",
-				"/home/spencer/analytics-tng/app/models/archive/app_stat.rb",
-				"/home/spencer/analytics-tng/app/models/warehouse_software.rb",
-				"/home/spencer/analytics-tng/app/models/warehouse_server.rb",
-				"/home/spencer/analytics-tng/app/models/warehouse_hardware.rb",
-				"/home/spencer/analytics-tng/app/models/version_history.rb",
-				"/home/spencer/analytics-tng/app/models/vendor_stat.rb",
-				"/home/spencer/analytics-tng/app/models/vendor_page_image.rb",
-				"/home/spencer/analytics-tng/app/models/vendor_page.rb",
-				"/home/spencer/analytics-tng/app/models/vendor_company_membership.rb",
-				"/home/spencer/analytics-tng/app/models/vendor_company.rb",
-				"/home/spencer/analytics-tng/app/models/vendor.rb",
-				"/home/spencer/analytics-tng/app/models/user_profile.rb",
-				"/home/spencer/analytics-tng/app/models/user_detail.rb",
-				"/home/spencer/analytics-tng/app/models/user.rb",
-				"/home/spencer/analytics-tng/app/models/uninstall_reason.rb",
-				"/home/spencer/analytics-tng/app/models/uninstall_data.rb",
-				"/home/spencer/analytics-tng/app/models/topic.rb",
-				"/home/spencer/analytics-tng/app/models/sw_duns.rb",
-				"/home/spencer/analytics-tng/app/models/software_product.rb",
-				"/home/spencer/analytics-tng/app/models/software.rb",
-				"/home/spencer/analytics-tng/app/models/shared_plugin_download.rb",
-				"/home/spencer/analytics-tng/app/models/shared_plugin.rb",
-				"/home/spencer/analytics-tng/app/models/region.rb",
-				"/home/spencer/analytics-tng/app/models/profile.rb",
-				"/home/spencer/analytics-tng/app/models/product_type.rb",
-				"/home/spencer/analytics-tng/app/models/product_ratings.rb",
-				"/home/spencer/analytics-tng/app/models/product_rating.rb",
-				"/home/spencer/analytics-tng/app/models/product_comment.rb",
-				"/home/spencer/analytics-tng/app/models/product.rb",
-				"/home/spencer/analytics-tng/app/models/post.rb",
-				"/home/spencer/analytics-tng/app/models/parsed_impression.rb",
-				"/home/spencer/analytics-tng/app/models/pack.rb",
-				"/home/spencer/analytics-tng/app/models/operatingsystem.rb",
-				"/home/spencer/analytics-tng/app/models/notification_stat.rb",
-				"/home/spencer/analytics-tng/app/models/marketview_follower_details.rb",
-				"/home/spencer/analytics-tng/app/models/marker.rb",
-				"/home/spencer/analytics-tng/app/models/manufacturer_name.rb",
-				"/home/spencer/analytics-tng/app/models/manufacturer.rb",
-				"/home/spencer/analytics-tng/app/models/lead_gen_vendor.rb",
-				"/home/spencer/analytics-tng/app/models/lead_gen_submission.rb",
-				"/home/spencer/analytics-tng/app/models/lead_gen_form.rb",
-				"/home/spencer/analytics-tng/app/models/industry.rb"
+				"/home/spencer/analytics-tng/app/models/historical/software.rb"
 			],
 			"find":
 			{
@@ -584,6 +608,12 @@
 				"height": 93.0,
 				"where_history":
 				[
+					"",
+					"*.rb",
+					"",
+					"*.rake",
+					"",
+					"/home/spencer/.rvm/gems/ruby-1.9.3-p429@rails32/gems/rails-3.2.13",
 					"",
 					"config/",
 					"",
@@ -621,6 +651,88 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"iconv",
+					"\\:$",
+					"z+z",
+					"show_at",
+					"show_at_center",
+					"scroll",
+					"zz",
+					"move_to",
+					"establish_connection",
+					"ActiveRecord::Base.establish_connection",
+					"ActiveRecordBase.establish_connection",
+					"image",
+					"image_tag",
+					"http",
+					"NET::HTTP",
+					"ExactTarget",
+					"FasterCSV",
+					"CSV",
+					"FasterCSV",
+					"case",
+					"layout",
+					"move_to",
+					"workspace",
+					"builder",
+					"1.9.3",
+					"mail_with_attachment",
+					"generic_mail_with_attachment",
+					"all@spiceworks.com",
+					"Net::HTTP",
+					"birthdays",
+					"hpricot",
+					"1.8.7",
+					"rvm use 1.8.7",
+					"1.8.7",
+					"configurations",
+					"establish_connection",
+					"sandbox",
+					".force",
+					"ActiveRecord::Base.connection.increment_open_transactions",
+					"monthly_update_process",
+					".force",
+					"},\n",
+					"Mailer.force",
+					"safe_html",
+					"html_safe",
+					"send_digest_health_email",
+					"verify_emails_sent",
+					"email_health_results",
+					"content_ty",
+					"@body",
+					"instance",
+					"@body",
+					"force",
+					"current_section[t]",
+					"@body",
+					"@body\\[",
+					"@recipients",
+					"@subject",
+					"@subject = subject",
+					"@recipients = recipients\\n\\W+",
+					"@recipients = recipients\\n",
+					"@recipients = recipients",
+					"@from",
+					"mail(:to",
+					"mail(",
+					"mail(:",
+					"attachment",
+					"def ((.+)\\n)*\\W+end",
+					"def ((.*)\\n)*\\W+end",
+					"def ((.+)\\n)*\\W+end",
+					"def ((.+)\\n)+end",
+					"def ((.*)\\n)*end",
+					"def (.+)end",
+					"def ([.\\n]+)end",
+					"def ([\\w]+)end",
+					"def ([\\w\\W]+)end",
+					"def .+([\\w\\W\\n]+)",
+					"@body\\['(\\w+)'\\]",
+					"@body\\['(\\w)+'\\]",
+					"body['",
+					"content_type",
+					"deliver_",
 					"gutter",
 					"weekly_vendor_page_usage",
 					"body",
@@ -666,89 +778,7 @@
 					"viewstate",
 					"VIEWSTATE",
 					"viewstate",
-					"VIEWSTATE",
-					"viewstate",
-					"VIEWSTATE",
-					"viewstate",
-					"VIEWSTATE",
-					"viewstate",
-					"user_agent",
-					"onestat",
-					"yesterday",
-					"temp",
-					"Nokogiri",
-					"email",
-					"data",
-					"daily_usa",
-					"mechanize",
-					"nokogiri",
-					"test_and_update_cores",
-					"hpricot",
-					"daily_email",
-					"grant_all_with_retries",
-					"ActiveRecord::Base",
-					"Restore DB failure",
-					"configuration does not exist",
-					"Rails.env",
-					"Rails.",
-					"Rails.env",
-					"RAILS_ENV",
-					"ENV\\[.*['\"]RAILS_ENV['\"].*\\]",
-					"RAILS_ENV",
-					"1.8.7",
-					"Need Ruby",
-					"stale",
-					"format_edialog_list",
-					"cache",
-					"cache_store",
-					"daily_email",
-					"test/unit",
-					"require",
-					"any?",
-					"FasterCSV",
-					"named_scope",
-					"missed_warranty",
-					"import",
-					"bulk",
-					"ar-extensions",
-					"ar-extentions",
-					"AnalyticsTng",
-					"RAILS_ROOT",
-					"threadpool",
-					"deliver_",
-					".invoke",
-					"dbhelper",
-					"get_days_of_week",
-					"verify_emails_sent",
-					"ctrl+s",
-					"ctrl+s\"",
-					"ctrl+s",
-					"vintage",
-					"eliminate_empty_emails",
-					"names_clause",
-					"get_days_and_time_sent",
-					"problem",
-					"digest_data",
-					"verify_logs_present",
-					"email_health_results",
-					"verify_emails_sent",
-					"email_stats",
-					"influencers",
-					"warranty_report_started",
-					"generate_reports",
-					"generate_report",
-					"warranty_v3",
-					"ARRAY.",
-					"RAILS_ENV",
-					"RAILS_ROOT",
-					"move_log_entry_data",
-					"impressions_by_users_by_month",
-					"class_name",
-					"SWCache",
-					"content_for_layout",
-					"report_views",
-					"spiceworksdata",
-					"invoke"
+					"VIEWSTATE"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -756,6 +786,15 @@
 				"regex": false,
 				"replace_history":
 				[
+					"CSV",
+					"rvm use 1.9.3",
+					"recipients",
+					"subject",
+					"",
+					"from",
+					"@$1",
+					"@\\1",
+					"@$1",
 					"self.class.get_svn_rev_pretty",
 					"require 'csv'",
 					"@$1",
@@ -778,7 +817,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 22.0
+				"height": 36.0
 			},
 			"input":
 			{
@@ -788,6 +827,10 @@
 			"output.exec":
 			{
 				"height": 42.0
+			},
+			"output.sftp":
+			{
+				"height": 92.0
 			},
 			"output.unsaved_changes":
 			{
@@ -804,12 +847,80 @@
 				"selected_items":
 				[
 					[
-						"devel",
+						".css",
+						"public/stylesheets/stats.css"
+					],
+					[
+						"dail",
+						"script/daily.prod.sh"
+					],
+					[
+						"gemdpe",
+						"vendor/gem/analytics_models/analytics_models.gemspec"
+					],
+					[
+						"analytics_models",
+						"vendor/gem/analytics_models-0.0.0/lib/analytics_models.rb"
+					],
+					[
+						"dev",
 						"log/development.log"
+					],
+					[
+						"misc",
+						"lib/tasks/misc.rake"
+					],
+					[
+						"warr",
+						"lib/tasks/warranty.rake"
+					],
+					[
+						"es/",
+						"app/models/es/elasticsearch.rb"
+					],
+					[
+						"on",
+						"app/models/one_stat.rb"
+					],
+					[
+						"daily.ts",
+						"script/daily.test.sh"
+					],
+					[
+						"rake",
+						"Rakefile"
+					],
+					[
+						"analy",
+						"lib/tasks/analytics.rake"
+					],
+					[
+						"emai",
+						"lib/tasks/email_stats.rake"
+					],
+					[
+						"email",
+						"app/views/mailer/email_health_results.html.erb"
 					],
 					[
 						"data",
 						"config/database.yml"
+					],
+					[
+						"spe",
+						"lib/tasks/spencer.rake"
+					],
+					[
+						"exception_caught",
+						"app/views/mailer/exception_caught.html.erb"
+					],
+					[
+						"app/models/post.rb",
+						"app/models/post.rb"
+					],
+					[
+						"devel",
+						"log/development.log"
 					],
 					[
 						"spice_warehouse",
@@ -830,10 +941,6 @@
 					[
 						"daily_us",
 						"app/views/mailer/daily_usage.text.erb"
-					],
-					[
-						"exception_caught",
-						"app/views/mailer/exception_caught.html.erb"
 					],
 					[
 						"ana",
@@ -876,10 +983,6 @@
 						"lib/tasks/workloads.rake"
 					],
 					[
-						"es/",
-						"app/models/es/elasticsearch.rb"
-					],
-					[
 						"daily_",
 						"app/views/mailer/daily_usage.rhtml"
 					],
@@ -894,10 +997,6 @@
 					[
 						"develop",
 						"lib/tasks/developer.rake"
-					],
-					[
-						"dail",
-						"script/daily.test.sh"
 					],
 					[
 						"functio",
@@ -964,10 +1063,6 @@
 						"app/models/vendor/metric.rb"
 					],
 					[
-						"email",
-						"lib/tasks/email.rake"
-					],
-					[
 						"db_hel",
 						"vendor/plugins/db_helper/lib/db_helper.rb"
 					],
@@ -997,7 +1092,7 @@
 				[
 					[
 						"",
-						"~/Documents/analytics-tng.sublime-project"
+						"~/Documents/sample1.sublime-project"
 					]
 				],
 				"width": 380.0
@@ -1014,7 +1109,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": false,
-			"side_bar_width": 245.0,
+			"side_bar_width": 288.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -1314,18 +1409,18 @@
 			"buffers":
 			[
 				{
-					"file": "/home/spencer/analytics-tng/app/mailers/mailer.rb",
-					"settings":
-					{
-						"buffer_size": 54596,
-						"line_ending": "Unix"
-					}
-				},
-				{
 					"file": "/home/spencer/analytics-tng/lib/tasks/analytics.rake",
 					"settings":
 					{
 						"buffer_size": 11723,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/spencer/analytics-tng/app/mailers/mailer.rb",
+					"settings":
+					{
+						"buffer_size": 54596,
 						"line_ending": "Unix"
 					}
 				},
@@ -1338,18 +1433,10 @@
 					}
 				},
 				{
-					"file": "/home/spencer/analytics-tng/app/models/email_stat.rb",
+					"file": "/home/spencer/analytics-tng/vendor/gem/analytics_models/analytics_models.gemspec",
 					"settings":
 					{
-						"buffer_size": 16894,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/spencer/analytics-tng/Rakefile",
-					"settings":
-					{
-						"buffer_size": 1129,
+						"buffer_size": 926,
 						"line_ending": "Unix"
 					}
 				},
@@ -1362,28 +1449,10 @@
 					}
 				},
 				{
-					"file": "/home/spencer/analytics-tng/app/models/exact_target.rb",
+					"file": "/home/spencer/analytics-tng/script/daily.prod.sh",
 					"settings":
 					{
-						"buffer_size": 25394,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "Searching 420 files for \"FasterCSV\"\n\n/home/spencer/analytics-tng/Gemfile.lock:\n   56        faraday_middleware\n   57        multi_json\n   58:     fastercsv (1.5.5)\n   59      garb (0.9.1)\n   60        activesupport (>= 2.2.0)\n   ..\n  155        distribution (~> 0.6)\n  156        extendmatrix (~> 0.3.1)\n  157:       fastercsv (> 0)\n  158        minimization (~> 0.2.0)\n  159        reportbuilder (~> 1.4)\n\n/home/spencer/analytics-tng/README:\n    5  passenger\n    6  pg\n    7: fastercsv\n    8  memcache-client - 1.5.0 - New version will not work at this time.\n    9  geoip\n\nUnable to open /home/spencer/analytics-tng/data/GeoIPCity.dat\n/home/spencer/analytics-tng/lib/tasks/duns.rake.orig:\n  599    #\n  600    task :scrub_dell_data => [ ] do\n  601:     require 'fastercsv'\n  602      require 'digest/md5'\n  603      ctr = 0\n\n/home/spencer/analytics-tng/lib/tasks/msft_software_all.rake:\n    1: require 'fastercsv'\n    2  namespace :msft_software_all do\n    3  \n\n/home/spencer/analytics-tng/lib/tasks/msft_software_all_misc.rake:\n    1: require 'fastercsv'\n    2  namespace :msft_software_all_misc do\n    3  \n\n6 matches across 5 files\n",
-					"settings":
-					{
-						"buffer_size": 1134,
-						"line_ending": "Unix",
-						"name": "Find Results",
-						"scratch": true
-					}
-				},
-				{
-					"file": "/home/spencer/analytics-tng/lib/tasks/msft_software_all_misc.rake",
-					"settings":
-					{
-						"buffer_size": 45791,
+						"buffer_size": 2553,
 						"line_ending": "Unix"
 					}
 				}
@@ -1395,12 +1464,24 @@
 				"selected_items":
 				[
 					[
-						"install",
+						"peek",
+						"SublimePeek: Get Help Files for CSS"
+					],
+					[
+						"install ",
 						"Package Control: Install Package"
 					],
 					[
 						"remove",
 						"Package Control: Remove Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"diff",
+						"Git: Diff Current File"
 					],
 					[
 						"installe",
@@ -1511,7 +1592,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 500.0
+				"width": 415.0
 			},
 			"console":
 			{
@@ -1549,6 +1630,40 @@
 			},
 			"file_history":
 			[
+				"/home/spencer/.config/sublime-text-3/Packages/Origami/Default (Linux).sublime-keymap",
+				"/home/spencer/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+				"/home/spencer/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+				"/home/spencer/analytics-tng/public/stylesheets/stats.css",
+				"/home/spencer/analytics-tng/config/database.yml",
+				"/home/spencer/analytics-tng/vendor/gem/analytics_models-0.0.0/analytics_models.gemspec",
+				"/home/spencer/analytics-tng/vendor/gem/analytics_models-0.0.0/build_analytics_models.sh",
+				"/home/spencer/analytics-tng/vendor/gem/analytics_models-0.0.0/lib/analytics_models.rb",
+				"/home/spencer/analytics-tng/app/models/shared_plugin.rb",
+				"/home/spencer/analytics-tng/app/models/es/elasticsearch.rb",
+				"/home/spencer/analytics-tng/app/models/community/product_scrubber.rb",
+				"/home/spencer/analytics-tng/app/models/http_log_entry.rb",
+				"/home/spencer/analytics-tng/app/models/client_geo.rb",
+				"/home/spencer/analytics-tng/vendor/gem/analytics_models.gemspec",
+				"/home/spencer/analytics-tng/analytics_models.gemspec",
+				"/home/spencer/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+				"/home/spencer/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/spencer/.config/sublime-text-2/Packages/Vintage/Default.sublime-keymap",
+				"/home/spencer/analytics-tng/app/models/community_stat.rb",
+				"/home/spencer/analytics-tng/Rakefile",
+				"/home/spencer/analytics-tng/lib/tasks/misc.rake",
+				"/home/spencer/analytics-tng/lib/tasks/warranty.rake",
+				"/home/spencer/.config/sublime-text-3/Cache/Vintageous/VintageousEx Cmdline.tmLanguage.cache",
+				"/home/spencer/.config/sublime-text-3/Packages/goto_magic.sublime-macro",
+				"/home/spencer/analytics-tng/log/development.log",
+				"/home/spencer/analytics-tng/lib/tasks/warehouse.rake",
+				"/home/spencer/analytics-tng/app/models/exact_target.rb",
+				"/home/spencer/analytics-tng/lib/tasks/exact_target.rake",
+				"/home/spencer/analytics-tng/sftp-config.json",
+				"/home/spencer/.config/sublime-text-3/Packages/SFTP/SFTP.sublime-settings",
+				"/home/spencer/.config/sublime-text-3/Packages/FileDiffs/FileDiffs.sublime-settings",
+				"/home/spencer/analytics-tng/lib/tasks/msft_software_all_misc.rake",
+				"/home/spencer/analytics-tng/app/models/email_stat.rb",
+				"/home/spencer/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 				"/home/spencer/analytics-tng/lib/tasks/msft_software_all.rake",
 				"/home/spencer/analytics-tng/lib/tasks/duns.rake.orig",
 				"/home/spencer/analytics-tng/lib/tasks/idm_for_dell.rake",
@@ -1564,18 +1679,10 @@
 				"/home/spencer/analytics-tng/lib/tasks/product_uuid_tests.rake",
 				"/home/spencer/analytics-tng/lib/tasks/old_projects/dell_emails.rake",
 				"/home/spencer/analytics-tng/lib/tasks/old_projects/dell.rake",
-				"/home/spencer/analytics-tng/lib/tasks/warranty.rake",
 				"/home/spencer/analytics-tng/lib/tasks/reports.rake",
 				"/home/spencer/analytics-tng/lib/tasks/reconstruct_daily.rake",
 				"/home/spencer/analytics-tng/lib/tasks/rad_scoring.rake",
-				"/home/spencer/analytics-tng/lib/tasks/msft_software_all_misc.rake",
-				"/home/spencer/analytics-tng/lib/tasks/misc.rake",
-				"/home/spencer/analytics-tng/app/models/es/elasticsearch.rb",
-				"/home/spencer/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
-				"/home/spencer/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
 				"/home/spencer/analytics-tng/app/models/users.rb",
-				"/home/spencer/analytics-tng/log/development.log",
-				"/home/spencer/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
 				"/home/spencer/analytics-tng/app/views/mailer/weekly_warranty_api_test_results.html.erb",
 				"/home/spencer/analytics-tng/app/views/mailer/weekly_vendor_page_usage.html.erb",
 				"/home/spencer/analytics-tng/app/views/mailer/warranty_warehouse_report_finished.html.erb",
@@ -1593,7 +1700,6 @@
 				"/home/spencer/analytics-tng/app/models/one_stat.rb",
 				"/home/spencer/analytics-tng/script/daily.prod.sh",
 				"/home/spencer/analytics-tng/script/daily.test.sh",
-				"/home/spencer/analytics-tng/app/models/community/product_scrubber.rb",
 				"/home/spencer/analytics-tng/app/models/bv/bazaar_voice.rb",
 				"/home/spencer/analytics-tng/script/weekly.prod.sh",
 				"/home/spencer/analytics-tng/script/warranty_reports.prod.sh",
@@ -1610,7 +1716,6 @@
 				"/home/spencer/analytics-tng/script/daily.restore.test.sh",
 				"/home/spencer/analytics-tng/script/daily.restore.prod.sh",
 				"/home/spencer/tmp1",
-				"/home/spencer/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 				"/home/spencer/analytics-tng/lib/tasks/email_stats.rake",
 				"/home/spencer/analytics-tng/app/models/postgres_stats.rb",
 				"/home/spencer/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
@@ -1620,16 +1725,13 @@
 				"/home/spencer/analytics-tng/app/models/daily_trend.rb",
 				"/home/spencer/.config/sublime-text-3/Packages/User/Word Highlight.sublime-settings",
 				"/home/spencer/.config/sublime-text-3/Packages/User/run_multiple.py",
-				"/home/spencer/analytics-tng/config/database.yml",
 				"/home/spencer/analytics-tng/app/models/google_analytics.rb",
 				"/home/spencer/analytics-tng/lib/tasks/analytics.rake",
 				"/home/spencer/analytics-tng/lib/tasks/spencer.rake",
-				"/home/spencer/analytics-tng/app/models/email_stat.rb",
 				"/home/spencer/analytics-tng/app/models/post.rb",
 				"/home/spencer/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
 				"/home/spencer/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
 				"/home/spencer/.config/sublime-text-3/Packages/User/Ruby.sublime-settings",
-				"/home/spencer/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
 				"/home/spencer/.config/sublime-text-3/Packages/WordHighlight/Word Highlight.sublime-settings",
 				"/home/spencer/.config/sublime-text-3/Packages/SublimeLinter/Default (Linux).sublime-keymap",
 				"/home/spencer/.config/sublime-text-3/Packages/SublimeLinter/README.md",
@@ -1642,7 +1744,6 @@
 				"/home/spencer/analytics-tng/app/models/configuration.rb",
 				"/home/spencer/analytics-tng/vendor/plugins/db_helper/lib/db_helper/postgresql.rb",
 				"/home/spencer/analytics-tng/lib/exceptions.rb",
-				"/home/spencer/analytics-tng/lib/tasks/warehouse.rake",
 				"/home/spencer/analytics-tng/lib/tasks/developer.rake",
 				"/home/spencer/analytics-tng/lib/tasks/functions.rake",
 				"/home/spencer/analytics-tng/Gemfile",
@@ -1656,27 +1757,7 @@
 				"/home/spencer/analytics-tng/config/environments/test.rb",
 				"/home/spencer/analytics-tng/app/models/weekly/warehouse_append_test.rb",
 				"/home/spencer/analytics-tng/app/models/weekly/warehouse_append.rb",
-				"/home/spencer/analytics-tng/app/models/monthly/warehouse_append.rb",
-				"/home/spencer/analytics-tng/app/models/historical/software.rb",
-				"/home/spencer/analytics-tng/app/models/historical/processor.rb",
-				"/home/spencer/analytics-tng/app/models/historical/operatingsystem.rb",
-				"/home/spencer/analytics-tng/app/models/historical/manufacturer.rb",
-				"/home/spencer/analytics-tng/app/models/historical/age.rb",
-				"/home/spencer/analytics-tng/app/models/ad_stat.rb",
-				"/home/spencer/analytics-tng/app/models/ad_click.rb",
-				"/home/spencer/analytics-tng/app/models/vendor/metric.rb",
-				"/home/spencer/analytics-tng/app/models/stats/vpro.rb",
-				"/home/spencer/analytics-tng/app/models/stats/virtual_mapping.rb",
-				"/home/spencer/analytics-tng/app/models/stats/virtual.rb",
-				"/home/spencer/analytics-tng/app/models/stats/top_n_manufacturer.rb",
-				"/home/spencer/analytics-tng/app/models/stats/remote_collector.rb",
-				"/home/spencer/analytics-tng/app/models/stats/processor.rb",
-				"/home/spencer/analytics-tng/app/models/stats/name.rb",
-				"/home/spencer/analytics-tng/app/models/stats/misc.rb",
-				"/home/spencer/analytics-tng/app/models/stats/feature.rb",
-				"/home/spencer/analytics-tng/app/models/stats/collector.rb",
-				"/home/spencer/analytics-tng/app/models/stats/agreement.rb",
-				"/home/spencer/analytics-tng/app/models/stats/age.rb"
+				"/home/spencer/analytics-tng/app/models/monthly/warehouse_append.rb"
 			],
 			"find":
 			{
@@ -1687,6 +1768,8 @@
 				"height": 93.0,
 				"where_history":
 				[
+					"",
+					"*.rb",
 					"",
 					"*.rake",
 					"",
@@ -1728,6 +1811,23 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"faster csv",
+					"iconv",
+					"\\:$",
+					"z+z",
+					"show_at",
+					"show_at_center",
+					"scroll",
+					"zz",
+					"move_to",
+					"establish_connection",
+					"ActiveRecord::Base.establish_connection",
+					"ActiveRecordBase.establish_connection",
+					"image",
+					"image_tag",
+					"http",
+					"NET::HTTP",
+					"ExactTarget",
 					"FasterCSV",
 					"CSV",
 					"FasterCSV",
@@ -1838,24 +1938,7 @@
 					"stats_hash",
 					"viewstate",
 					"VIEWSTATE",
-					"viewstate",
-					"VIEWSTATE",
-					"viewstate",
-					"VIEWSTATE",
-					"viewstate",
-					"VIEWSTATE",
-					"viewstate",
-					"user_agent",
-					"onestat",
-					"yesterday",
-					"temp",
-					"Nokogiri",
-					"email",
-					"data",
-					"daily_usa",
-					"mechanize",
-					"nokogiri",
-					"test_and_update_cores"
+					"viewstate"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1900,6 +1983,134 @@
 					[
 						{
 							"buffer": 0,
+							"file": "/home/spencer/analytics-tng/lib/tasks/analytics.rake",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 11723,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										444,
+										444
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"incomplete_sync": null,
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"remote_loading": false,
+									"sublimelinter": true,
+									"sublimelinter_delay": 0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+										"ruby": "rvm-auto-ruby"
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "dark",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": "true",
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"synced": false,
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 841.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 1,
 							"file": "/home/spencer/analytics-tng/app/mailers/mailer.rb",
 							"semi_transient": false,
 							"settings":
@@ -1911,8 +2122,8 @@
 								"selection":
 								[
 									[
-										28716,
-										28716
+										38199,
+										38199
 									]
 								],
 								"settings":
@@ -1965,6 +2176,7 @@
 									[
 									],
 									"highlight_line": true,
+									"incomplete_sync": null,
 									"javascript_linter": "jshint",
 									"jshint_options":
 									{
@@ -1985,6 +2197,7 @@
 									[
 									],
 									"pyflakes_ignore_import_*": true,
+									"remote_loading": false,
 									"sublimelinter": true,
 									"sublimelinter_delay": 0,
 									"sublimelinter_disable":
@@ -2008,6 +2221,7 @@
 										"Ruby on Rails": "ruby"
 									},
 									"sublimelinter_wrap_find": true,
+									"synced": false,
 									"syntax": "Packages/Ruby/Ruby.tmLanguage",
 									"tab_size": 2,
 									"translate_tabs_to_spaces": true,
@@ -2016,136 +2230,11 @@
 									}
 								},
 								"translation.x": 0.0,
-								"translation.y": 8232.0,
+								"translation.y": 11951.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
-						{
-							"buffer": 1,
-							"file": "/home/spencer/analytics-tng/lib/tasks/analytics.rake",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 11723,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										3,
-										3
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"star-property-hack": "warning",
-										"text-indent": "warning",
-										"underscore-property-hack": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-										"ruby": "rvm-auto-ruby"
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": true,
-									"sublimelinter_gutter_marks_theme": "dark",
-									"sublimelinter_mark_style": "none",
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": "true",
-									"sublimelinter_syntax_map":
-									{
-										"C++": "c",
-										"Python Django": "python",
-										"Ruby on Rails": "ruby"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/Ruby/Ruby.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
-					]
-				},
-				{
-					"selected": 0,
-					"sheets":
-					[
 						{
 							"buffer": 2,
 							"file": "/home/spencer/analytics-tng/lib/tasks/spencer.rake",
@@ -2159,8 +2248,8 @@
 								"selection":
 								[
 									[
-										925,
-										925
+										924,
+										924
 									]
 								],
 								"settings":
@@ -2212,6 +2301,7 @@
 									"gjslint_options":
 									[
 									],
+									"incomplete_sync": null,
 									"javascript_linter": "jshint",
 									"jshint_options":
 									{
@@ -2232,6 +2322,7 @@
 									[
 									],
 									"pyflakes_ignore_import_*": true,
+									"remote_loading": false,
 									"sublimelinter": true,
 									"sublimelinter_delay": 0,
 									"sublimelinter_disable":
@@ -2255,6 +2346,7 @@
 										"Ruby on Rails": "ruby"
 									},
 									"sublimelinter_wrap_find": true,
+									"synced": false,
 									"syntax": "Packages/Ruby/Ruby.tmLanguage",
 									"tab_size": 2,
 									"translate_tabs_to_spaces": true
@@ -2267,19 +2359,19 @@
 						},
 						{
 							"buffer": 3,
-							"file": "/home/spencer/analytics-tng/app/models/email_stat.rb",
+							"file": "/home/spencer/analytics-tng/vendor/gem/analytics_models/analytics_models.gemspec",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 16894,
+								"buffer_size": 926,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1080,
-										1080
+										926,
+										926
 									]
 								],
 								"settings":
@@ -2331,6 +2423,7 @@
 									"gjslint_options":
 									[
 									],
+									"incomplete_sync": null,
 									"javascript_linter": "jshint",
 									"jshint_options":
 									{
@@ -2351,6 +2444,7 @@
 									[
 									],
 									"pyflakes_ignore_import_*": true,
+									"remote_loading": false,
 									"sublimelinter": true,
 									"sublimelinter_delay": 0,
 									"sublimelinter_disable":
@@ -2374,126 +2468,7 @@
 										"Ruby on Rails": "ruby"
 									},
 									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/Ruby/Ruby.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/home/spencer/analytics-tng/Rakefile",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1129,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										776,
-										776
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"star-property-hack": "warning",
-										"text-indent": "warning",
-										"underscore-property-hack": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"spell_check": false,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-										"ruby": "rvm-auto-ruby"
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": true,
-									"sublimelinter_gutter_marks_theme": "dark",
-									"sublimelinter_mark_style": "none",
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": "true",
-									"sublimelinter_syntax_map":
-									{
-										"C++": "c",
-										"Python Django": "python",
-										"Ruby on Rails": "ruby"
-									},
-									"sublimelinter_wrap_find": true,
+									"synced": false,
 									"syntax": "Packages/Ruby/Ruby.tmLanguage",
 									"tab_size": 2,
 									"translate_tabs_to_spaces": true
@@ -2507,11 +2482,11 @@
 					]
 				},
 				{
-					"selected": 3,
+					"selected": 1,
 					"sheets":
 					[
 						{
-							"buffer": 5,
+							"buffer": 4,
 							"file": "/home/spencer/analytics-tng/config/database.yml",
 							"semi_transient": false,
 							"settings":
@@ -2523,8 +2498,8 @@
 								"selection":
 								[
 									[
-										270,
-										270
+										374,
+										374
 									]
 								],
 								"settings":
@@ -2576,6 +2551,8 @@
 									"gjslint_options":
 									[
 									],
+									"history_list_is_closing": true,
+									"incomplete_sync": null,
 									"javascript_linter": "jshint",
 									"jshint_options":
 									{
@@ -2596,6 +2573,7 @@
 									[
 									],
 									"pyflakes_ignore_import_*": true,
+									"remote_loading": false,
 									"sublimelinter": true,
 									"sublimelinter_delay": 0,
 									"sublimelinter_disable":
@@ -2619,6 +2597,7 @@
 										"Ruby on Rails": "ruby"
 									},
 									"sublimelinter_wrap_find": true,
+									"synced": false,
 									"syntax": "Packages/YAML/YAML.tmLanguage",
 									"tab_size": 2,
 									"translate_tabs_to_spaces": true
@@ -2630,20 +2609,20 @@
 							"type": "text"
 						},
 						{
-							"buffer": 6,
-							"file": "/home/spencer/analytics-tng/app/models/exact_target.rb",
+							"buffer": 5,
+							"file": "/home/spencer/analytics-tng/script/daily.prod.sh",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 25394,
+								"buffer_size": 2553,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										634,
-										634
+										1092,
+										1092
 									]
 								],
 								"settings":
@@ -2695,6 +2674,7 @@
 									"gjslint_options":
 									[
 									],
+									"incomplete_sync": null,
 									"javascript_linter": "jshint",
 									"jshint_options":
 									{
@@ -2715,6 +2695,7 @@
 									[
 									],
 									"pyflakes_ignore_import_*": true,
+									"remote_loading": false,
 									"sublimelinter": true,
 									"sublimelinter_delay": 0,
 									"sublimelinter_disable":
@@ -2738,194 +2719,8 @@
 										"Ruby on Rails": "ruby"
 									},
 									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/Ruby/Ruby.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 7,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1134,
-								"regions":
-								{
-									"match":
-									{
-										"flags": 112,
-										"regions":
-										[
-											[
-												146,
-												155
-											],
-											[
-												317,
-												326
-											],
-											[
-												477,
-												486
-											],
-											[
-												762,
-												771
-											],
-											[
-												903,
-												912
-											],
-											[
-												1045,
-												1054
-											]
-										],
-										"scope": ""
-									}
-								},
-								"selection":
-								[
-									[
-										1051,
-										1051
-									]
-								],
-								"settings":
-								{
-									"detect_indentation": false,
-									"line_numbers": false,
-									"output_tag": 1,
-									"result_base_dir": "",
-									"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-									"result_line_regex": "^ +([0-9]+):",
-									"scroll_past_end": true,
-									"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 8,
-							"file": "/home/spencer/analytics-tng/lib/tasks/msft_software_all_misc.rake",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 45791,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"star-property-hack": "warning",
-										"text-indent": "warning",
-										"underscore-property-hack": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-										"ruby": "rvm-auto-ruby"
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": true,
-									"sublimelinter_gutter_marks_theme": "dark",
-									"sublimelinter_mark_style": "none",
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": "true",
-									"sublimelinter_syntax_map":
-									{
-										"C++": "c",
-										"Python Django": "python",
-										"Ruby on Rails": "ruby"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/Ruby/Ruby.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
+									"synced": false,
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -2970,7 +2765,7 @@
 				"cols":
 				[
 					0.0,
-					0.473229166667,
+					0.33,
 					0.66,
 					1.0
 				],
@@ -2985,11 +2780,15 @@
 			{
 				"height": 42.0
 			},
+			"output.sftp":
+			{
+				"height": 92.0
+			},
 			"output.unsaved_changes":
 			{
 				"height": 98.0
 			},
-			"position": "0,1,0,0,0,0,0,0,0,3286,1080",
+			"position": "0,1,0,0,0,1897,27,2537,507,3286,1080",
 			"project": "analytics-tng.sublime-project",
 			"replace":
 			{
@@ -3002,6 +2801,34 @@
 				"selected_items":
 				[
 					[
+						".css",
+						"public/stylesheets/stats.css"
+					],
+					[
+						"dail",
+						"script/daily.prod.sh"
+					],
+					[
+						"gemdpe",
+						"vendor/gem/analytics_models/analytics_models.gemspec"
+					],
+					[
+						"analytics_models",
+						"vendor/gem/analytics_models-0.0.0/lib/analytics_models.rb"
+					],
+					[
+						"dev",
+						"log/development.log"
+					],
+					[
+						"misc",
+						"lib/tasks/misc.rake"
+					],
+					[
+						"warr",
+						"lib/tasks/warranty.rake"
+					],
+					[
 						"es/",
 						"app/models/es/elasticsearch.rb"
 					],
@@ -3010,16 +2837,8 @@
 						"app/models/one_stat.rb"
 					],
 					[
-						"dev",
-						"log/development.log"
-					],
-					[
 						"daily.ts",
 						"script/daily.test.sh"
-					],
-					[
-						"dail",
-						"script/daily.prod.sh"
 					],
 					[
 						"rake",
@@ -3227,7 +3046,7 @@
 				[
 					[
 						"",
-						"~/Documents/documents.sublime-project"
+						"~/Documents/sample1.sublime-project"
 					]
 				],
 				"width": 380.0
@@ -3250,12 +3069,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": false,
-			"side_bar_width": 256.0,
+			"side_bar_width": 288.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 1,
+			"window_id": 10,
 			"workspace_name": "/home/spencer/Documents/analytics-tng.sublime-workspace"
 		}
 	],
@@ -3264,9 +3083,11 @@
 		"recent_workspaces":
 		[
 			"/home/spencer/Documents/analytics-tng.sublime-workspace",
+			"/home/spencer/Documents/sample1.sublime-workspace",
+			"/home/spencer/Documents/deploy_scripts.sublime-workspace",
 			"/home/spencer/Documents/documents.sublime-workspace",
 			"/home/spencer/Documents/community.sublime-workspace",
-			"/home/spencer/Documents/sample1.sublime-workspace"
+			"/home/spencer/Documents/analytics.sublime-workspace"
 		]
 	}
 }

@@ -80,7 +80,6 @@
       ]
     }
   },
-
   {
     "keys": ["alt+shift+down"],
     "command": "set_layout",
@@ -111,7 +110,29 @@
       "cells": [[0, 0, 1, 2], [1, 0, 2, 1], [1, 1, 2, 2]]
     }
   },
+  // {
+  //   "keys": ["f10"],
+  //   "command": "run_multiple",
+  //   "args":
+  //   {
+  //     "commands": [
+  //       {
+  //         "command": "goto_definition",
+  //       },
+  //       {
+  //         "command": "focus_group",
+  //         "args":
+  //         {
+  //           "group": 2
+  //         },
+  //         "context": "window"
+  //       }
+  //     ]
+  //   }
+  // },
   { "keys": ["f10"], "command": "goto_definition" },
   { "keys": ["f9"], "command": "jump_back" },
-  { "keys": ["ctrl+s"], "command": "save" }
+  { "keys": ["ctrl+s"], "command": "save" },
+  { "keys": ["ctrl+shift+up"], "command": "select_lines", "args": {"forward": false} },
+  { "keys": ["ctrl+shift+down"], "command": "select_lines", "args": {"forward": true} }
 ]
